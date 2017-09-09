@@ -1,0 +1,4 @@
+git push origin master - запушить на удал сервер
+git commit -m readme.txt - закоммитить файл
+git commit -a -m "description" - закоммитить все файлы с описанием 
+git rm - удалить файл с отлеживания
