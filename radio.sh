@@ -22,26 +22,9 @@ echo "9 Europa+		20 Русское радио"
 echo "10 Классное радио	21 AVTORadio"
 
 notify-send --expire-time=5000 "Слушаем радио!" "Доброе время суток $TIME "
-#echo "11 Zvezda"
-#echo "12 Radio Dacha"
-#echo "13 HitFM Kyiv"
-#echo "14 BestFM Kyiv"
-#echo "15 Radio Lviv wave"
-#echo "16 RadioERA"
-#echo "17 Lux FM Kiev"
-#echo "18 РАДИО KARNAVAL"
-#echo "19 Radio Melodia"
-#echo "20 Русское радио"
-#echo "21 AVtoRadio"
-#echo -----------------------
-#echo "22 LOVE RADIO"
-#echo "23 Relax FM"
-#echo "24 Радио Ваня"
-#echo "29 Silver rain"
-#echo "30 Эхо Москвы"
+
 echo ===============================================================================
-#sleep 1 && xset dpms force off
-#SECONDS=0; echo "that took approximately $SECONDS seconds"
+
 read doing
 case $doing in
 
