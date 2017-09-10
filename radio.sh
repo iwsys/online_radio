@@ -16,8 +16,8 @@ echo "3 Бизнес ФМ		14 BestFM Kyiv		29 Комсом правда"
 echo "4 KANAL 112		15 Radio ПРОМИНЬ	30 Эхо Москвы"
 echo "5 Радио ДАЧА		16 RadioERA		31 Atmosfera"
 echo "6 Коммерсантъ		17 Lux FM Kiev		32 Europa+ light"
-echo "7 RADIO SPUTNIK		18 РАДИО KARNAVAL		33 101:Chillout"
-echo "8 Радио Пионер		19 Radio Melodia"
+echo "7 RADIO SPUTNIK		18 РАДИО KARNAVAL	33 101:Chillout"
+echo "8 Радио Пионер		19 Radio Melodia	34 Спок Радио"
 echo "9 Europa+		20 Русское радио"
 echo "10 Классное радио	21 AVTORadio"
 
@@ -59,6 +59,7 @@ case $doing in
 31)mplayer http://185.53.169.128:8000/192;;
 32)mplayer http://emg02.hostingradio.ru/ep-light128.mp3;;
 33)mplayer http://ic2.101.ru:8000/c15_3;;
+34)mplayer http://listen1.myradio24.com:9000/6262;;
 
 
 e)exit 0;;
