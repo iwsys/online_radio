@@ -46,7 +46,7 @@ read doing
 case $doing in
 
 30)mplayer http://81.19.85.197:80/echo.mp3;;
-0)mplayer http://server03.hostingradio.ru:8040/radio7128.mp3 2>&1 | sed -une 's/^.*ICY[^:]*: //p';;
+0)mplayer http://listen18.vdfm.ru:8000/radio7 2>&1 | sed -une 's/^.*ICY[^:]*: //p';;
 1)mplayer http://online.uniton.ru:8300/RadioUniton128 2>&1 | sed -une 's/^.*ICY[^:]*: //p';;
 2)mplayer http://icecast.vgtrk.cdnvideo.ru/vestifm_mp3_64kbps;;
 3)mplayer http://bfm.hostingradio.ru:8004/fm;;
