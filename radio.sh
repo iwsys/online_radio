@@ -18,10 +18,10 @@ echo "5 Радио ДАЧА		16 RadioERA		31 Atmosfera"
 echo "6 Коммерсантъ		17 Lux FM Kiev		32 Europa+ light"
 echo "7 RADIO SPUTNIK		18 РАДИО KARNAVAL	33 101:Chillout"
 echo "8 Радио Пионер		19 Radio Melodia	34 Спок Радио"
-echo "9 Europa+		20 Русское радио"
-echo "10 Классное радио	21 AVTORadio"
+echo "9 Europa+		20 Русское радио"       35 Ретро ФМ"
+echo "10 Классное радио	21 AVTORadio"     36 Дискотека 80-х"
 
-notify-send --expire-time=5000 "Слушаем радио!" "Доброе время суток $TIME "
+#notify-send --expire-time=5000 "Слушаем радио!" "Доброе время суток $TIME "
 
 echo ===============================================================================
 
@@ -60,7 +60,8 @@ case $doing in
 32)mplayer http://emg02.hostingradio.ru/ep-light128.mp3;;
 33)mplayer http://ic2.101.ru:8000/c15_3;;
 34)mplayer http://listen1.myradio24.com:9000/6262;;
-
+35)mplayer http://retroserver.streamr.ru:8043/retro256.mp3;;
+36)mplayer http://ic2.101.ru:8000/c7_0;;
 
 e)exit 0;;
 *)
