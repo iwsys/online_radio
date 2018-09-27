@@ -9,7 +9,7 @@ echo "$TIME"
 #echo "Online Radio 9.05.2013 Update list 1.09.2017"
 #notify-send --expire-time=10000 "Слушаем радио!" "Доброе время суток $TIME"
 
-echo "0 RADIO 7			11 Zvezda		22 Дискотека 90х"
+echo "0 RADIO 7		11 Zvezda		22 Дискотека 90х"
 echo "1 Radio Uniton		12 Doroznoe Radio	23 Relax FM"
 echo "2 Vesti FM		13 HitFM Kyiv		24 Радио МАЯК"
 echo "3 Бизнес ФМ		14 BestFM Kyiv		29 Комсом правда"
