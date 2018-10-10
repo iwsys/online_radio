@@ -17,10 +17,10 @@ echo "4 Lounge FM		15 Radio ПРОМИНЬ	30 Эхо Москвы"
 echo "5 Радио ДАЧА		16 RadioERA		31 Atmosfera"
 echo "6 Коммерсантъ		17 Lux FM Kiev		32 Europa+ light"
 echo "7 RADIO SPUTNIK		18 РАДИО KARNAVAL	33 101:Chillout"
-echo "8 Голос столицы		19 Radio Melodia	34 Спок Радио"
+echo "8 Ностальгия ФМ		19 Radio Melodia	34 Спок Радио"
 echo "9 Europa+		20 Русское радио	35 Ретро ФМ"
 echo "10 Классное радио	21 AVTORadio     	36 Дискотека 80-х"
-echo "37 Ностальгия ФМ  	38 Radio Kabriolet"
+
 
 #notify-send --expire-time=5000 "Слушаем радио!" "Доброе время суток $TIME "
 
@@ -37,7 +37,7 @@ case $doing in
 5)mplayer http://listen15.vdfm.ru:8000/dacha 2>&1 | sed -une 's/^.*ICY[^:]*: //p';;
 6)mplayer http://kommersant77.hostingradio.ru:8016/kommersant128.mp3;;
 7)mplayer http://audio1.video.ria.ru/voicerus 2>&1 | sed -une 's/^.*ICY[^:]*: //p';;
-8)mplayer http://cast.106fm.com.ua/106fm 2>&1 | sed -une 's/^.*ICY[^:]*: //p';;
+8)mplayer http://www.nostalgia.fm:8000/nostalgiafm.mp3;;
 9)mplayer http://ep256.hostingradio.ru:8052/europaplus256.mp3 2>&1 | sed -une 's/^.*ICY[^:]*: //p';;
 10)mplayer http://31.129.253.239:8000/2-Klassnoe-Radio-Izyum-103.7FM-Stereo-VBR-128k.ogg 2>&1 | sed -une 's/^.*ICY[^:]*: //p';;
 11)mplayer http://89.208.99.16:8088/zvezda_128;;
@@ -63,8 +63,6 @@ case $doing in
 34)mplayer http://listen1.myradio24.com:9000/6262;;
 35)mplayer http://retroserver.streamr.ru:8043/retro256.mp3;;
 36)mplayer http://ic2.101.ru:8000/c7_0;;
-37)mplayer http://www.nostalgia.fm:8000/nostalgiafm.mp3;;
-38)mplayer http://setmedia.ru:8000/high3;;
 
 e)exit 0;;
 *)
