@@ -3,12 +3,7 @@ clear
 echo
 echo ===============Online Radio 9.05.2013 Update list 19.10.2018====================
 TIME=`date +%F\ %H:%M:%S`
-
 echo "$TIME"
-#echo -e "\a"
-#echo "Online Radio 9.05.2013 Update list 1.09.2017"
-#notify-send --expire-time=10000 "Слушаем радио!" "Доброе время суток $TIME"
-
 echo "0 Radio 7		11 Zvezda		22 Discoteka 90"
 echo "1 Radio Uniton		12 Doroznoe Radio	23 Relax FM"
 echo "2 Vesti FM		13 HitFM Kyiv		24 Radio Mayak"
@@ -20,15 +15,9 @@ echo "7 Radio Sputnik		18 Radio KARNAVAL	33 101:Chillout"
 echo "8 Nostalgia FM		19 Radio Melodia	34 Spokojnoe radio"
 echo "9 Europa+		20 Russkoe radio	35 Retro FM"
 echo "10 Klassnoe radio	21 Avtoradio     	36 Discoteka 80"
-
-
-#notify-send --expire-time=5000 "Слушаем радио!" "Доброе время суток $TIME "
-
 echo ===============================================================================
-
 read doing
 case $doing in
-
 0)mplayer http://listen18.vdfm.ru:8000/radio7 2>&1 | sed -une 's/^.*ICY[^:]*: //p';;
 1)mplayer http://online.uniton.ru:8300/RadioUniton128 2>&1 | sed -une 's/^.*ICY[^:]*: //p';;
 2)mplayer http://icecast.vgtrk.cdnvideo.ru/vestifm_mp3_64kbps;;
