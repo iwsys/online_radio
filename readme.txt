@@ -6,7 +6,7 @@ Install
 Mplayer must be installed.
 Copy the radio.sh to /home/user/Desktop/
 Run the script /home/ace/Desktop/radio.sh
-Input number station and press ENTER.
+Input number station and press key ENTER.
 
 :)
 
