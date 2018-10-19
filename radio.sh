@@ -1,7 +1,7 @@
 #!/bin/bash
 clear
 echo
-echo ===============Online Radio 9.05.2013 Update list 27.09.2018====================
+echo ===============Online Radio 9.05.2013 Update list 10.10.2018====================
 TIME=`date +%F\ %H:%M:%S`
 
 echo "$TIME"
