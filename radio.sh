@@ -21,7 +21,7 @@ echo "8 Nostalgia FM		19 Radio Melodia	34 Spokojnoe radio"
 echo "9 Europa+		20 Russkoe radio	35 Retro FM"
 echo "10 Klassnoe radio	21 Avtoradio     	36 Discoteka 80"
 
-#
+
 #notify-send --expire-time=5000 "Слушаем радио!" "Доброе время суток $TIME "
 
 echo ===============================================================================
